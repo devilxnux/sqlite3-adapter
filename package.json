@@ -42,7 +42,7 @@
   ],
   "scripts": {
     "prepublish": "gulp",
-    "postinstall": "gulp,
+    "postinstall": "gulp",
     "test": "gulp && rm -rf .tmp/ ; NODE_ENV=test node test/integration/runner.js"    
   },
   "main": "dist/adapter",
